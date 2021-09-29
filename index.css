@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+:focus{
+    outline: 0;
+}
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height:1.5;
+    color:black;
+    font-family: 'Roboto Mono', bold;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+  
+}
+
+
+section{
+    padding:4% 0;
+}
+a{
+    text-decoration:none;
+    font-family: 'Roboto Mono', bold;
+}
+.container{
+    padding:2%;
+    width:100%;
+}
+/* header section styles */
+nav{
+    padding:2% 0;
+}
+nav a{
+    display:inline-block;
+    width:8%;
+    padding: .5% 0;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffff;
+}
+
+.orange {
+margin-left:15%;
+background-color:#FF764E;
+}
+.blue {
+margin:0 7%;
+background-color:#5ED3EB;
+}
+.yellow {
+margin-right:15%;
+background-color:#FFCD69;
+}
+
+/* top section styles */
+
+.left, .right{
+    display:inline-block;
+    text-align:center;
+}
+.left{
+    width:30%
+}
+.left img{
+    border-radius:50%;
+    width:50%;
+}
+.right{
+    width:55%;
+    /* margin-left:5%; */
+    position:absolute;
+    top: 27%;
+    left: 15%;
+    text-align:center;
+}
+.right h1{
+    margin: 10px;
+}
+.right p{
+    margin: 20px;
+}
+.middle{
+    color:white;
+    margin-right: 590px;
+    margin-left:100px;
+    background-color:#b98f6c;
+    padding:10px;
+    text-align:center;
+}
+.middle p{
+    margin:20px;
+}
+.fire {
+    margin-right:500px;
+    text-align:center;
+}
+.fire p{
+    margin-left:400px;
+    margin-right:400px;
+}
+.fire img{
+    width:10%;
+    text-align:center;
+}
+.rv {
+    margin-right:500px;
+    text-align:center;
+}
+.rv p{
+    margin-left:400px;
+    margin-right:400px;
+}
+.rv img{
+    width:10%;
+    text-align:center;
+}
+#hdome{
+   width:72%;
+}
